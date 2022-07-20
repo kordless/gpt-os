@@ -7,10 +7,10 @@ The system uses OpenAI's GPT-3 language model and Google's Vision APIs. If you w
 
 Use is provided via Slack and API calls.
 
-# Deploy a Grub Box on Google Cloud
+## Deploy a Grub Box on Google Cloud
 Grub is a crawler, which outputs screenshots that can be passed to image models for text and object extraction purposes.
 
-## Running Grub
+### Running Grub
 Start by checking this repo out on your Google Cloud Shell terminal:
 
 ```
