@@ -19,9 +19,15 @@ def index():
 
 # image a page
 @app.route('/grub')
+def grub():
 	document = {"response": "not implemented"}
 
 	return make_response(document)
+
+	
+@app.route('/foo')
+def foo():
+	return None
 
 if __name__ == '__main__':
 	# This is used when running locally.
